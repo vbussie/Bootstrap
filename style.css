@@ -1,1 +1,21 @@
 
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+html{
+background-image: url('background.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+background-color: blue;
+color: white;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  padding-top: 25px;
+}
+.palm{
+  height: 100px;
+  width: 100px;
+}
