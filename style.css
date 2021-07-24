@@ -2,20 +2,111 @@
 /*font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;*/
 
-html{
-background-image: url('background.png');
+/*html{
+background-image: url('background.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 background-color: blue;
 color: white;
+}*/
+
+body {
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #cccccc;
 }
+
 h1{
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   padding-top: 25px;
 }
+
+h3{
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
 .palm{
   height: 100px;
   width: 100px;
+}
+.carousel-inner img{
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+
+
+.position-relative{
+  opacity: .8;
+}
+
+.card{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.card-title-things{
+  text-align: right;
+}
+
+.card-body-things{
+  width: 100%;
+  background-color: #ccffe6;
+  max-width: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.card-title-specials{
+  text-align: center;
+}
+
+.card{
+  margin: 0 auto;
+  max-width: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+.details{
+  background-color: #bddbcc;
+  width: 75%;
+  align-items: center;
+}
+
+.reservation{
+  background-color: #e6e6ff;
+  width: 75%;
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+
+
+.inner1{
+width: 50%;
+Float: left;
+display:inline;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color:  #00001a;
+color: #bddbcc;
+}
+
+.inner2{
+width: 50%;
+float: right;
+padding-top: 10px;
+text-align: center;
+background-color:  #00001a;
+color: #bddbcc;
+height: auto;
 }
