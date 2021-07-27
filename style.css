@@ -1,3 +1,6 @@
+/*Developer: Vanessa Bussie 
+Project: Bootstrap B&B*/
+
 body {
  background-image: url("background.jpg");
  background-repeat: no-repeat;
@@ -31,6 +34,10 @@ p{
 .palm{
   height: 100px;
   width: 100px;
+}
+
+#check{
+  color: #000033;
 }
 
 .abouttest{
@@ -128,9 +135,6 @@ p{
   padding: 10px;
   margin: auto;
   border: 3px solid #00004d;
-}
-
-#button2{
 }
 
 /*Footer*/
